@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="132" viewBox="0 0 620 132" role="img" aria-label="CompraHub">
+  <defs>
+    <linearGradient id="hubBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#37c7ff"/>
+      <stop offset="0.55" stop-color="#129bff"/>
+      <stop offset="1" stop-color="#0072ff"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="620" height="132" fill="transparent"/>
+  <g filter="url(#softShadow)">
+    <text x="4" y="92" font-family="Inter, Manrope, Arial, Helvetica, sans-serif" font-size="86" font-weight="900" letter-spacing="-5.2" fill="#ffffff">Compra</text>
+    <text x="367" y="92" font-family="Inter, Manrope, Arial, Helvetica, sans-serif" font-size="86" font-weight="900" letter-spacing="-5.2" fill="url(#hubBlue)">Hub</text>
+  </g>
+</svg>
